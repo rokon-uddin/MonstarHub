@@ -1,0 +1,142 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AcknowList",
+        "repositoryURL": "https://github.com/vtourraine/AcknowList",
+        "state": {
+          "branch": null,
+          "revision": "3112d51bc9dfccba25fa16673729e426a7c43b87",
+          "version": "1.9.5"
+        }
+      },
+      {
+        "package": "Hero",
+        "repositoryURL": "https://github.com/HeroTransitions/Hero.git",
+        "state": {
+          "branch": null,
+          "revision": "36c74ac138eede7dd7b31ea6b9139805deef3a39",
+          "version": "1.5.0"
+        }
+      },
+      {
+        "package": "InputBarAccessoryView",
+        "repositoryURL": "https://github.com/nathantannar4/InputBarAccessoryView",
+        "state": {
+          "branch": null,
+          "revision": "a2983f8728bf7aefc7da8a17ffc0e382479ce001",
+          "version": "5.2.3"
+        }
+      },
+      {
+        "package": "IQKeyboardManagerSwift",
+        "repositoryURL": "https://github.com/hackiftekhar/IQKeyboardManager.git",
+        "state": {
+          "branch": null,
+          "revision": "4dc6bc7d1c9747bd0c261c8c055903f9fdef91f7",
+          "version": "6.5.6"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess.git",
+        "state": {
+          "branch": null,
+          "revision": "654d52d30f3dd4592e944c3e0bccb53178c992f6",
+          "version": "4.2.1"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "f2c757ced8ed65b74447298af95f1cf698b5ac49",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "MessageKit",
+        "repositoryURL": "https://github.com/MessageKit/MessageKit",
+        "state": {
+          "branch": null,
+          "revision": "7189e5a1af50160884bc6a5f9bdf9cb250dc139a",
+          "version": "3.5.0"
+        }
+      },
+      {
+        "package": "MultiProgressView",
+        "repositoryURL": "https://github.com/mac-gallagher/MultiProgressView.git",
+        "state": {
+          "branch": null,
+          "revision": "c4d920787553c9736f8c932170b318589b0eb1b2",
+          "version": "1.3.0"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble",
+        "state": {
+          "branch": null,
+          "revision": "7a46a5fc86cb917f69e3daf79fcb045283d8f008",
+          "version": "8.1.2"
+        }
+      },
+      {
+        "package": "NSAttributedStringBuilder",
+        "repositoryURL": "https://github.com/ethanhuang13/NSAttributedStringBuilder",
+        "state": {
+          "branch": null,
+          "revision": "4a3b02b8b4baf531490e1ddae8ed4a667bdb12b5",
+          "version": "0.3.3"
+        }
+      },
+      {
+        "package": "NVActivityIndicatorView",
+        "repositoryURL": "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+        "state": {
+          "branch": null,
+          "revision": "bcb52371f2259254bac6690f92bb474a61768c47",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick",
+        "state": {
+          "branch": null,
+          "revision": "09b3becb37cb2163919a3842a4c5fa6ec7130792",
+          "version": "2.2.1"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "Stevia",
+        "repositoryURL": "https://github.com/freshOS/Stevia",
+        "state": {
+          "branch": null,
+          "revision": "a32dc3c015fe583080f4947edf795bced9a11108",
+          "version": "5.1.1"
+        }
+      },
+      {
+        "package": "WhatsNewKit",
+        "repositoryURL": "https://github.com/SvenTiigi/WhatsNewKit.git",
+        "state": {
+          "branch": null,
+          "revision": "92a9d6f5f6754aba0df972514fd7686f1de03bcc",
+          "version": "1.3.7"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

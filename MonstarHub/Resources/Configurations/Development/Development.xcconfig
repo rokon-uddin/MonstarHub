@@ -1,0 +1,13 @@
+//
+//  Configuration.xcconfig
+//  MonstarHub
+//
+//  Created by Rokon on 5/4/20.
+//  Copyright © 2020 Monstarlab. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+XCC_BUNDLE_NAME = MonstarHub-Dev
+XCC_CONFIG_PATH = Development/BuildConfiguration.plist
