@@ -158,6 +158,7 @@ final class SearchViewController: TableViewController {
     lazy var trendingPeriodSegmentedControl: SegmentedControl = {
         let items = [TrendingPeriodSegments.daily.title, TrendingPeriodSegments.weekly.title, TrendingPeriodSegments.montly.title]
         let view = SegmentedControl(sectionTitles: items)
+        view.accessibilityIdentifier = "trendingPeriodSegmentedControl"
         view.selectedSegmentIndex = 0
         return view
     }()
@@ -203,7 +204,7 @@ final class SearchViewController: TableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableView.accessibilityIdentifier = "trendingRepositoriesTableView"
         // Do any additional setup after loading the view.
     }
 

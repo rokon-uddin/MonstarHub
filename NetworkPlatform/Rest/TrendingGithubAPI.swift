@@ -59,7 +59,18 @@ extension TrendingGithubAPI: TargetType, ProductAPIType {
     var sampleData: Data {
         var dataUrl: URL?
         switch self {
-        case .trendingRepositories: dataUrl = R.file.repositoryTrendingsJson()
+        case .trendingRepositories(_, let since):
+            switch since {
+            case "daily":
+               dataUrl =  R.file.dailyTrendingRepositoriesJson()
+            case "weekly":
+               dataUrl = R.file.weeklyTrendingRepositoriesJson()
+            case "monthly":
+               dataUrl = R.file.monthlyTrendingRepositoriesJson()
+            default:
+               dataUrl = R.file.repositoryTrendingsJson()
+            }
+            
         case .trendingDevelopers: dataUrl = R.file.userTrendingsJson()
         case .languages: dataUrl = R.file.languagesJson()
         }

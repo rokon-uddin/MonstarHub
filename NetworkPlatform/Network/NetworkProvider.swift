@@ -21,4 +21,8 @@ final class NetworkProvider {
     public func makeTrendingGithubNetwork() -> TrendingGithubNetworking {
         return TrendingGithubNetworking.defaultNetworking()
     }
+    
+    public func makeTrendingGithubStubbedNetwork() -> TrendingGithubNetworking {
+        return TrendingGithubNetworking.stubbingNetworking()
+    }
 }

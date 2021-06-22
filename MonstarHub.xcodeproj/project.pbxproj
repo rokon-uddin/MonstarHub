@@ -370,6 +370,38 @@
 		5A1CA828A22245108A9F01DD /* Pods_NetworkPlatform_NetworkPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89FF7FF7244EB32F866549F /* Pods_NetworkPlatform_NetworkPlatformTests.framework */; };
 		77ED0CEC36EF547AB49D3E14 /* Pods_NetworkPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC918CC0C5D88B77456B544 /* Pods_NetworkPlatform.framework */; };
 		A05318F43F45F4B27AFD65BA /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DA6495366C2D8740F49CE1 /* Pods_Domain.framework */; };
+		B26756782681876D00AEFEC8 /* TrendingRepositoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26756772681876D00AEFEC8 /* TrendingRepositoryScreen.swift */; };
+		B267567926818B1F00AEFEC8 /* TrendingRepositoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26756772681876D00AEFEC8 /* TrendingRepositoryScreen.swift */; };
+		B267567B26818E3100AEFEC8 /* MonstarHubAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B267567A26818E3100AEFEC8 /* MonstarHubAcceptanceTests.swift */; };
+		B2AC57EF268041280022452A /* DailyTrendingRepositories.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AC57EE268041280022452A /* DailyTrendingRepositories.json */; };
+		B2AC57F1268041650022452A /* WeeklyTrendingRepositories.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AC57F0268041650022452A /* WeeklyTrendingRepositories.json */; };
+		B2AC57F52680420B0022452A /* MonthlyTrendingRepositories.json in Resources */ = {isa = PBXBuildFile; fileRef = B2AC57F42680420B0022452A /* MonthlyTrendingRepositories.json */; };
+		B2B3A60526806A7B007BAC79 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = B2B3A60426806A7B007BAC79 /* Features */; };
+		B2B3A60B268095D5007BAC79 /* TrendingRepositorySteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3A60A268095D5007BAC79 /* TrendingRepositorySteps.swift */; };
+		B2B3A60E2680A5F9007BAC79 /* TrendingRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3A60D2680A5F9007BAC79 /* TrendingRepositoriesTests.swift */; };
+		B2B3A6102680B3FC007BAC79 /* TrendingRepositoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3A60F2680B3FC007BAC79 /* TrendingRepositoriesUITests.swift */; };
+		B2EF82A026806563002313AD /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9A265E436D00FDD337 /* Token.swift */; };
+		B2EF82A126806569002313AD /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049DA2265E436F00FDD337 /* Repository.swift */; };
+		B2EF82A226806570002313AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9E265E436E00FDD337 /* User.swift */; };
+		B2EF82A32680657F002313AD /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D98265E436D00FDD337 /* Content.swift */; };
+		B2EF82A42680658E002313AD /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D92265E436C00FDD337 /* Commit.swift */; };
+		B2EF82A5268065AF002313AD /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D94265E436C00FDD337 /* Branch.swift */; };
+		B2EF82A6268065B6002313AD /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9D265E436E00FDD337 /* Release.swift */; };
+		B2EF82A7268065BE002313AD /* PullRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D91265E436B00FDD337 /* PullRequest.swift */; };
+		B2EF82A8268065C5002313AD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049DA0265E436F00FDD337 /* Event.swift */; };
+		B2EF82A926806602002313AD /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D95265E436C00FDD337 /* Language.swift */; };
+		B2EF82AA26806608002313AD /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D96265E436C00FDD337 /* License.swift */; };
+		B2EF82AB26806613002313AD /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D93265E436C00FDD337 /* Issue.swift */; };
+		B2EF82AC26806617002313AD /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9F265E436E00FDD337 /* Comment.swift */; };
+		B2EF82AD26806655002313AD /* Committer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9B265E436D00FDD337 /* Committer.swift */; };
+		B2EF82AE26806658002313AD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D9C265E436E00FDD337 /* Contact.swift */; };
+		B2EF82AF2680665F002313AD /* Milestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049DA1265E436F00FDD337 /* Milestone.swift */; };
+		B2EF82B026806662002313AD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049DA3265E436F00FDD337 /* Notification.swift */; };
+		B2EF82B12680666A002313AD /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F049D97265E436D00FDD337 /* State.swift */; };
+		B2EF82B22680666F002313AD /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF945FE25A614D9005572C6 /* AppError.swift */; };
+		B2EF82B32680669D002313AD /* CodeTabsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6100F826609E6500BA81DF /* CodeTabsUseCase.swift */; };
+		B2EF82B4268066A1002313AD /* TrendingGitHubUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6100F626609B4700BA81DF /* TrendingGitHubUseCase.swift */; };
+		C3FC2A2F946F3685595C9529 /* Pods_MonstarHub_MonstarHubAcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0504EDCAAD7A5E45BAD3FE47 /* Pods_MonstarHub_MonstarHubAcceptanceTests.framework */; };
 		D1517BC4404DEE19B2F1A818 /* Pods_Domain_DomainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74BA829815A69270AA5E38A /* Pods_Domain_DomainTests.framework */; };
 		F67B58BF85FA79C524371811 /* Pods_MonstarHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA55F948D10F17CCC0727681 /* Pods_MonstarHub.framework */; };
 		F9FAF829E0D486B3661CB109 /* Pods_MonstarHub_MonstarHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758394702C7DAA0494B03C9 /* Pods_MonstarHub_MonstarHubUITests.framework */; };
@@ -432,6 +464,13 @@
 			remoteGlobalIDString = 2F81D3D52439A887007021F7;
 			remoteInfo = MonstarHub;
 		};
+		B2EF82BE268069ED002313AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F81D3CE2439A887007021F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F81D3D52439A887007021F7;
+			remoteInfo = MonstarHub;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -450,6 +489,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0504EDCAAD7A5E45BAD3FE47 /* Pods_MonstarHub_MonstarHubAcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonstarHub_MonstarHubAcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		064A24A3836B97551A66B843 /* Pods-Domain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.release.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.release.xcconfig"; sourceTree = "<group>"; };
 		07EC7F817D3A417DC06602E6 /* Pods-MonstarHubTests.prod-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.prod-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.prod-debug.xcconfig"; sourceTree = "<group>"; };
 		0BCE34FA6B7017F8B0B2D658 /* Pods-Domain.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.dev-release.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.dev-release.xcconfig"; sourceTree = "<group>"; };
@@ -832,6 +872,7 @@
 		6147E54E9384091B71A4A1B6 /* Pods-MonstarHubTests.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.dev-release.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.dev-release.xcconfig"; sourceTree = "<group>"; };
 		65617DFE9DFECEB0D3BB0EE3 /* Pods-Domain-DomainTests.staging-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain-DomainTests.staging-debug.xcconfig"; path = "Target Support Files/Pods-Domain-DomainTests/Pods-Domain-DomainTests.staging-debug.xcconfig"; sourceTree = "<group>"; };
 		6765F06AB8C06145FF99730A /* Pods-MonstarHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub.debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub/Pods-MonstarHub.debug.xcconfig"; sourceTree = "<group>"; };
+		69DFE38AA6FED0EB1A28CA90 /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.prod-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.prod-debug.xcconfig"; sourceTree = "<group>"; };
 		6B12060885E0DD9C3E25B168 /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
 		6B8C7A742187DB17BF5AA510 /* Pods-MonstarHub-MonstarHubUITests.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubUITests.dev-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubUITests/Pods-MonstarHub-MonstarHubUITests.dev-debug.xcconfig"; sourceTree = "<group>"; };
 		6CE3B411F4AE5E5A0F2D0F02 /* Pods-NetworkPlatform.prod-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform.prod-debug.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform/Pods-NetworkPlatform.prod-debug.xcconfig"; sourceTree = "<group>"; };
@@ -843,14 +884,29 @@
 		93447F9C7D25E1EADB12560B /* Pods-NetworkPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform.release.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform/Pods-NetworkPlatform.release.xcconfig"; sourceTree = "<group>"; };
 		97686E9D8E2D5CB8216C4BEA /* Pods-MonstarHub-MonstarHubUITests.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubUITests.dev-release.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubUITests/Pods-MonstarHub-MonstarHubUITests.dev-release.xcconfig"; sourceTree = "<group>"; };
 		9CEA980C8AB7DE29E2656FA5 /* Pods-Domain.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.staging-release.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.staging-release.xcconfig"; sourceTree = "<group>"; };
+		9FEAA61A9F0E2738E2C78F60 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.dev-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.dev-debug.xcconfig"; sourceTree = "<group>"; };
 		A1E4737C7E6993F71440046E /* Pods-MonstarHubTests.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.staging-release.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.staging-release.xcconfig"; sourceTree = "<group>"; };
+		A2525FA7B4F6C469CA74023B /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.prod-release.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.prod-release.xcconfig"; sourceTree = "<group>"; };
 		A2CB75D28C426C8EBEA8E523 /* Pods-Domain-DomainTests.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain-DomainTests.staging-release.xcconfig"; path = "Target Support Files/Pods-Domain-DomainTests/Pods-Domain-DomainTests.staging-release.xcconfig"; sourceTree = "<group>"; };
 		A4653258152406086609DC4D /* Pods-NetworkPlatform.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform.staging-release.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform/Pods-NetworkPlatform.staging-release.xcconfig"; sourceTree = "<group>"; };
 		AA55F948D10F17CCC0727681 /* Pods_MonstarHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonstarHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB15DCB876200ACEF10700CD /* Pods-MonstarHub-MonstarHubUITests.prod-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubUITests.prod-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubUITests/Pods-MonstarHub-MonstarHubUITests.prod-debug.xcconfig"; sourceTree = "<group>"; };
 		AC481E89152BAA8F02E46939 /* Pods-Domain-DomainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain-DomainTests.release.xcconfig"; path = "Target Support Files/Pods-Domain-DomainTests/Pods-Domain-DomainTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE38FC52752CF8589C850FA8 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.dev-release.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.dev-release.xcconfig"; sourceTree = "<group>"; };
 		B21FC6E616307EA968AFA44C /* Pods-MonstarHubTests.prod-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.prod-release.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.prod-release.xcconfig"; sourceTree = "<group>"; };
+		B26756772681876D00AEFEC8 /* TrendingRepositoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepositoryScreen.swift; sourceTree = "<group>"; };
+		B267567A26818E3100AEFEC8 /* MonstarHubAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstarHubAcceptanceTests.swift; sourceTree = "<group>"; };
+		B2AC57EE268041280022452A /* DailyTrendingRepositories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DailyTrendingRepositories.json; sourceTree = "<group>"; };
+		B2AC57F0268041650022452A /* WeeklyTrendingRepositories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeeklyTrendingRepositories.json; sourceTree = "<group>"; };
+		B2AC57F42680420B0022452A /* MonthlyTrendingRepositories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MonthlyTrendingRepositories.json; sourceTree = "<group>"; };
+		B2B3A60426806A7B007BAC79 /* Features */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Features; sourceTree = SOURCE_ROOT; };
+		B2B3A60A268095D5007BAC79 /* TrendingRepositorySteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepositorySteps.swift; sourceTree = "<group>"; };
+		B2B3A60D2680A5F9007BAC79 /* TrendingRepositoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepositoriesTests.swift; sourceTree = "<group>"; };
+		B2B3A60F2680B3FC007BAC79 /* TrendingRepositoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingRepositoriesUITests.swift; sourceTree = "<group>"; };
+		B2EF82B9268069ED002313AD /* MonstarHubAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonstarHubAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EF82BD268069ED002313AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B996E11ECEF382B60B114722 /* Pods-MonstarHubTests.staging-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.staging-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.staging-debug.xcconfig"; sourceTree = "<group>"; };
+		B9D33E5FC685F7F53B6C9A9E /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.staging-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.staging-debug.xcconfig"; sourceTree = "<group>"; };
 		BC39139758A6A6EA825FA289 /* Pods-NetworkPlatform-NetworkPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform-NetworkPlatformTests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform-NetworkPlatformTests/Pods-NetworkPlatform-NetworkPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE0E1A633CACB498B57E0B5D /* Pods-Domain.prod-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.prod-release.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.prod-release.xcconfig"; sourceTree = "<group>"; };
 		BF884BCA53FB47070D913C0C /* Pods-MonstarHubTests.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.dev-debug.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.dev-debug.xcconfig"; sourceTree = "<group>"; };
@@ -869,6 +925,7 @@
 		F89FF7FF7244EB32F866549F /* Pods_NetworkPlatform_NetworkPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkPlatform_NetworkPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B34F27D282B2F23B8839CA /* Pods-MonstarHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHubTests.debug.xcconfig"; path = "Target Support Files/Pods-MonstarHubTests/Pods-MonstarHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F91A2AA188579826D5D53BCB /* Pods-NetworkPlatform-NetworkPlatformTests.dev-debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkPlatform-NetworkPlatformTests.dev-debug.xcconfig"; path = "Target Support Files/Pods-NetworkPlatform-NetworkPlatformTests/Pods-NetworkPlatform-NetworkPlatformTests.dev-debug.xcconfig"; sourceTree = "<group>"; };
+		FA481AFEC4CC916480A9843D /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub-MonstarHubAcceptanceTests.staging-release.xcconfig"; path = "Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests.staging-release.xcconfig"; sourceTree = "<group>"; };
 		FAB702E5A4AF0CFC797ED9F0 /* Pods-MonstarHub.staging-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonstarHub.staging-release.xcconfig"; path = "Target Support Files/Pods-MonstarHub/Pods-MonstarHub.staging-release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -946,6 +1003,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B2EF82B6268069ED002313AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC2A2F946F3685595C9529 /* Pods_MonstarHub_MonstarHubAcceptanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -959,6 +1024,7 @@
 				AA55F948D10F17CCC0727681 /* Pods_MonstarHub.framework */,
 				4758394702C7DAA0494B03C9 /* Pods_MonstarHub_MonstarHubUITests.framework */,
 				270C644F92403B895CEE1DC4 /* Pods_MonstarHubTests.framework */,
+				0504EDCAAD7A5E45BAD3FE47 /* Pods_MonstarHub_MonstarHubAcceptanceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1022,6 +1088,12 @@
 				6147E54E9384091B71A4A1B6 /* Pods-MonstarHubTests.dev-release.xcconfig */,
 				A1E4737C7E6993F71440046E /* Pods-MonstarHubTests.staging-release.xcconfig */,
 				B21FC6E616307EA968AFA44C /* Pods-MonstarHubTests.prod-release.xcconfig */,
+				9FEAA61A9F0E2738E2C78F60 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-debug.xcconfig */,
+				B9D33E5FC685F7F53B6C9A9E /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-debug.xcconfig */,
+				69DFE38AA6FED0EB1A28CA90 /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-debug.xcconfig */,
+				AE38FC52752CF8589C850FA8 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-release.xcconfig */,
+				FA481AFEC4CC916480A9843D /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-release.xcconfig */,
+				A2525FA7B4F6C469CA74023B /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1338,6 +1410,9 @@
 				2F111940265B75CE004AD3D4 /* RepositoryPullRequest.json */,
 				2F111941265B75CE004AD3D4 /* RepositoryWatchers.json */,
 				2F111942265B75CE004AD3D4 /* EventsOrganization.json */,
+				B2AC57EE268041280022452A /* DailyTrendingRepositories.json */,
+				B2AC57F0268041650022452A /* WeeklyTrendingRepositories.json */,
+				B2AC57F42680420B0022452A /* MonthlyTrendingRepositories.json */,
 			);
 			path = StubbedResponses;
 			sourceTree = "<group>";
@@ -1637,6 +1712,7 @@
 			isa = PBXGroup;
 			children = (
 				2F81D3D82439A887007021F7 /* MonstarHub */,
+				B2EF82BA268069ED002313AD /* MonstarHubAcceptanceTests */,
 				2F81D3EF2439A888007021F7 /* MonstarHubTests */,
 				2F81D3FA2439A888007021F7 /* MonstarHubUITests */,
 				2F797D6A2439C9D80028F363 /* Domain */,
@@ -1659,6 +1735,7 @@
 				2F797D712439C9D90028F363 /* DomainTests.xctest */,
 				2F797D972439CA980028F363 /* NetworkPlatform.framework */,
 				2F797D9F2439CA980028F363 /* NetworkPlatformTests.xctest */,
+				B2EF82B9268069ED002313AD /* MonstarHubAcceptanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1682,6 +1759,7 @@
 		2F81D3EF2439A888007021F7 /* MonstarHubTests */ = {
 			isa = PBXGroup;
 			children = (
+				B2B3A60C2680A5D7007BAC79 /* View Models */,
 				2F81D3F02439A888007021F7 /* __cookiecutter_app_name__Tests.swift */,
 				2F81D3F22439A888007021F7 /* Info.plist */,
 			);
@@ -1691,6 +1769,8 @@
 		2F81D3FA2439A888007021F7 /* MonstarHubUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B26756762681874B00AEFEC8 /* Screens */,
+				B2B3A6112680BE8F007BAC79 /* TrendingRepository */,
 				2F81D3FB2439A888007021F7 /* __cookiecutter_app_name__UITests.swift */,
 				2F81D3FD2439A888007021F7 /* Info.plist */,
 			);
@@ -1978,6 +2058,49 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		B26756762681874B00AEFEC8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B26756772681876D00AEFEC8 /* TrendingRepositoryScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B2B3A609268095B9007BAC79 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3A60A268095D5007BAC79 /* TrendingRepositorySteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		B2B3A60C2680A5D7007BAC79 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3A60D2680A5F9007BAC79 /* TrendingRepositoriesTests.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		B2B3A6112680BE8F007BAC79 /* TrendingRepository */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3A60F2680B3FC007BAC79 /* TrendingRepositoriesUITests.swift */,
+			);
+			path = TrendingRepository;
+			sourceTree = "<group>";
+		};
+		B2EF82BA268069ED002313AD /* MonstarHubAcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3A609268095B9007BAC79 /* Steps */,
+				B2B3A60426806A7B007BAC79 /* Features */,
+				B2EF82BD268069ED002313AD /* Info.plist */,
+				B267567A26818E3100AEFEC8 /* MonstarHubAcceptanceTests.swift */,
+			);
+			path = MonstarHubAcceptanceTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2160,13 +2283,33 @@
 			productReference = 2F81D3F72439A888007021F7 /* MonstarHubUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B2EF82B8268069ED002313AD /* MonstarHubAcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EF82C0268069ED002313AD /* Build configuration list for PBXNativeTarget "MonstarHubAcceptanceTests" */;
+			buildPhases = (
+				5260973DCDF51B582241A920 /* [CP] Check Pods Manifest.lock */,
+				B2EF82B5268069ED002313AD /* Sources */,
+				B2EF82B6268069ED002313AD /* Frameworks */,
+				B2EF82B7268069ED002313AD /* Resources */,
+				EE9ECA00825410EE8538F18F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EF82BF268069ED002313AD /* PBXTargetDependency */,
+			);
+			name = MonstarHubAcceptanceTests;
+			productName = MonstarHubAcceptanceTests;
+			productReference = B2EF82B9268069ED002313AD /* MonstarHubAcceptanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2F81D3CE2439A887007021F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = Monstarlab;
 				TargetAttributes = {
@@ -2195,6 +2338,10 @@
 					};
 					2F81D3F62439A888007021F7 = {
 						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2F81D3D52439A887007021F7;
+					};
+					B2EF82B8268069ED002313AD = {
+						CreatedOnToolsVersion = 12.5;
 						TestTargetID = 2F81D3D52439A887007021F7;
 					};
 				};
@@ -2232,6 +2379,7 @@
 			projectRoot = "";
 			targets = (
 				2F81D3D52439A887007021F7 /* MonstarHub */,
+				B2EF82B8268069ED002313AD /* MonstarHubAcceptanceTests */,
 				2F81D3EB2439A888007021F7 /* MonstarHubTests */,
 				2F81D3F62439A888007021F7 /* MonstarHubUITests */,
 				2F797D682439C9D80028F363 /* Domain */,
@@ -2295,6 +2443,7 @@
 				2FBC98D325BD90A8008B5AB5 /* User.graphql in Resources */,
 				2F111955265B75CE004AD3D4 /* UserRepositoriesWatching.json in Resources */,
 				2F11194B265B75CE004AD3D4 /* RepositoryIssue.json in Resources */,
+				B2AC57EF268041280022452A /* DailyTrendingRepositories.json in Resources */,
 				2F11196B265B75CE004AD3D4 /* RepositoryWatchers.json in Resources */,
 				2F11194D265B75CE004AD3D4 /* RepositoryPullRequestComments.json in Resources */,
 				2F111947265B75CE004AD3D4 /* Languages.json in Resources */,
@@ -2303,6 +2452,8 @@
 				2F11196C265B75CE004AD3D4 /* EventsOrganization.json in Resources */,
 				2F111943265B75CE004AD3D4 /* RepositorySearch.json in Resources */,
 				2F111963265B75CE004AD3D4 /* RepositoryCommits.json in Resources */,
+				B2AC57F52680420B0022452A /* MonthlyTrendingRepositories.json in Resources */,
+				B2AC57F1268041650022452A /* WeeklyTrendingRepositories.json in Resources */,
 				2FBC98D425BD90A8008B5AB5 /* Search.graphql in Resources */,
 				2FBC98D725BD90A8008B5AB5 /* schema.json in Resources */,
 				2F111959265B75CE004AD3D4 /* EventsUserPerformed.json in Resources */,
@@ -2363,6 +2514,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF82B7268069ED002313AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B3A60526806A7B007BAC79 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2525,6 +2684,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonstarHub-MonstarHubUITests/Pods-MonstarHub-MonstarHubUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5260973DCDF51B582241A920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonstarHub-MonstarHubAcceptanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6BD2EB6ADCCADC62CAE8A876 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2669,6 +2850,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Domain-DomainTests/Pods-Domain-DomainTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EE9ECA00825410EE8538F18F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonstarHub-MonstarHubAcceptanceTests/Pods-MonstarHub-MonstarHubAcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2706,9 +2904,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EF82AE26806658002313AD /* Contact.swift in Sources */,
+				B2EF82A42680658E002313AD /* Commit.swift in Sources */,
+				B2EF82A6268065B6002313AD /* Release.swift in Sources */,
+				B2EF82A5268065AF002313AD /* Branch.swift in Sources */,
 				2F797D912439CA5D0028F363 /* UseCaseProvider.swift in Sources */,
+				B2EF82B12680666A002313AD /* State.swift in Sources */,
+				B2EF82A8268065C5002313AD /* Event.swift in Sources */,
+				B2EF82AB26806613002313AD /* Issue.swift in Sources */,
+				B2EF82B22680666F002313AD /* AppError.swift in Sources */,
 				2F797D8E2439CA440028F363 /* GitHubUseCase.swift in Sources */,
+				B2EF82A32680657F002313AD /* Content.swift in Sources */,
+				B2EF82AF2680665F002313AD /* Milestone.swift in Sources */,
+				B2EF82AA26806608002313AD /* License.swift in Sources */,
+				B2EF82A7268065BE002313AD /* PullRequest.swift in Sources */,
+				B2EF82A926806602002313AD /* Language.swift in Sources */,
+				B2EF82AD26806655002313AD /* Committer.swift in Sources */,
+				B2EF82AC26806617002313AD /* Comment.swift in Sources */,
+				B2EF82B32680669D002313AD /* CodeTabsUseCase.swift in Sources */,
+				B2EF82A226806570002313AD /* User.swift in Sources */,
+				B2EF82B026806662002313AD /* Notification.swift in Sources */,
+				B2EF82A126806569002313AD /* Repository.swift in Sources */,
+				B2EF82B4268066A1002313AD /* TrendingGitHubUseCase.swift in Sources */,
 				2F797D792439C9D90028F363 /* DomainTests.swift in Sources */,
+				B2EF82A026806563002313AD /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2973,6 +3192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B3A60E2680A5F9007BAC79 /* TrendingRepositoriesTests.swift in Sources */,
 				2F81D3F12439A888007021F7 /* __cookiecutter_app_name__Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2981,7 +3201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B26756782681876D00AEFEC8 /* TrendingRepositoryScreen.swift in Sources */,
+				B2B3A6102680B3FC007BAC79 /* TrendingRepositoriesUITests.swift in Sources */,
 				2F81D3FC2439A888007021F7 /* __cookiecutter_app_name__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EF82B5268069ED002313AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B267567926818B1F00AEFEC8 /* TrendingRepositoryScreen.swift in Sources */,
+				B267567B26818E3100AEFEC8 /* MonstarHubAcceptanceTests.swift in Sources */,
+				B2B3A60B268095D5007BAC79 /* TrendingRepositorySteps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3028,6 +3260,11 @@
 			target = 2F81D3D52439A887007021F7 /* MonstarHub */;
 			targetProxy = 2F81D3F82439A888007021F7 /* PBXContainerItemProxy */;
 		};
+		B2EF82BF268069ED002313AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F81D3D52439A887007021F7 /* MonstarHub */;
+			targetProxy = B2EF82BE268069ED002313AD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -3060,10 +3297,10 @@
 			baseConfigurationReference = 3C0D900167880D09D0B53F70 /* Pods-Domain.dev-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3076,6 +3313,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3090,10 +3329,10 @@
 			baseConfigurationReference = 0BCE34FA6B7017F8B0B2D658 /* Pods-Domain.dev-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3106,6 +3345,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3118,8 +3359,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B6A7968915607534F17320F /* Pods-Domain-DomainTests.dev-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3128,6 +3369,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3138,8 +3381,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB063172FED03DD6A5EF6E57 /* Pods-Domain-DomainTests.dev-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3148,6 +3391,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3159,10 +3404,10 @@
 			baseConfigurationReference = 794C0A9B693214DF03AB75BB /* Pods-NetworkPlatform.dev-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3176,6 +3421,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DDev";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3190,10 +3437,10 @@
 			baseConfigurationReference = 6EF223A062F1F7A1DD68DEBA /* Pods-NetworkPlatform.dev-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3207,6 +3454,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DDev";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3219,8 +3468,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F91A2AA188579826D5D53BCB /* Pods-NetworkPlatform-NetworkPlatformTests.dev-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3229,6 +3478,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3239,8 +3490,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15436E1FFBCF8AAE9A09F3F7 /* Pods-NetworkPlatform-NetworkPlatformTests.dev-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3249,6 +3500,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3422,8 +3675,10 @@
 			baseConfigurationReference = BF884BCA53FB47070D913C0C /* Pods-MonstarHubTests.dev-debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3433,6 +3688,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3444,8 +3701,10 @@
 			baseConfigurationReference = 6147E54E9384091B71A4A1B6 /* Pods-MonstarHubTests.dev-release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3455,6 +3714,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3465,8 +3726,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B8C7A742187DB17BF5AA510 /* Pods-MonstarHub-MonstarHubUITests.dev-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3475,8 +3737,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Dev-Debug";
@@ -3485,8 +3750,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97686E9D8E2D5CB8216C4BEA /* Pods-MonstarHub-MonstarHubUITests.dev-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3495,8 +3761,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Dev-Release";
@@ -3590,8 +3859,10 @@
 			baseConfigurationReference = B996E11ECEF382B60B114722 /* Pods-MonstarHubTests.staging-debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3601,6 +3872,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3611,8 +3884,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73D4AF1EA549E23056F9174F /* Pods-MonstarHub-MonstarHubUITests.staging-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3621,8 +3895,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Staging-Debug";
@@ -3632,10 +3909,10 @@
 			baseConfigurationReference = 733716A0B21D62D0EBBE4529 /* Pods-Domain.staging-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3648,6 +3925,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3661,8 +3940,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65617DFE9DFECEB0D3BB0EE3 /* Pods-Domain-DomainTests.staging-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3671,6 +3950,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3682,10 +3963,10 @@
 			baseConfigurationReference = 0C0451B6EC4A715D120FE707 /* Pods-NetworkPlatform.staging-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3699,6 +3980,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DStaging";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3712,8 +3995,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 221E714E8FC21A958CD38732 /* Pods-NetworkPlatform-NetworkPlatformTests.staging-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3722,6 +4005,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3817,8 +4102,10 @@
 			baseConfigurationReference = 07EC7F817D3A417DC06602E6 /* Pods-MonstarHubTests.prod-debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -3828,6 +4115,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3838,8 +4127,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB15DCB876200ACEF10700CD /* Pods-MonstarHub-MonstarHubUITests.prod-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3848,8 +4138,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Prod-Debug";
@@ -3859,10 +4152,10 @@
 			baseConfigurationReference = E1CBD609B06C0BAD6F68000C /* Pods-Domain.prod-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3875,6 +4168,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3888,8 +4183,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 21A3145024C3BFAB43888C16 /* Pods-Domain-DomainTests.prod-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3898,6 +4193,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -3909,10 +4206,10 @@
 			baseConfigurationReference = 6CE3B411F4AE5E5A0F2D0F02 /* Pods-NetworkPlatform.prod-debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3926,6 +4223,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DProd";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -3939,8 +4238,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0492764D225713F420930D3 /* Pods-NetworkPlatform-NetworkPlatformTests.prod-debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3949,6 +4248,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4038,8 +4339,10 @@
 			baseConfigurationReference = A1E4737C7E6993F71440046E /* Pods-MonstarHubTests.staging-release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4049,6 +4352,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4059,8 +4364,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC6180076A52590D16D4BA84 /* Pods-MonstarHub-MonstarHubUITests.staging-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4069,8 +4375,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Staging-Release";
@@ -4080,10 +4389,10 @@
 			baseConfigurationReference = 9CEA980C8AB7DE29E2656FA5 /* Pods-Domain.staging-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4096,6 +4405,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4108,8 +4419,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2CB75D28C426C8EBEA8E523 /* Pods-Domain-DomainTests.staging-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4118,6 +4429,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4129,10 +4442,10 @@
 			baseConfigurationReference = A4653258152406086609DC4D /* Pods-NetworkPlatform.staging-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4146,6 +4459,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DStaging";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4158,8 +4473,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7B455520EBD0C90C0F9A049 /* Pods-NetworkPlatform-NetworkPlatformTests.staging-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4168,6 +4483,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4257,8 +4574,10 @@
 			baseConfigurationReference = B21FC6E616307EA968AFA44C /* Pods-MonstarHubTests.prod-release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4268,6 +4587,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4278,8 +4599,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17A9834E3BA7B2505147AD55 /* Pods-MonstarHub-MonstarHubUITests.prod-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				BUNDLE_LOADER = "";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MonstarHubUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4288,8 +4610,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bd.com.ml.--cookiecutter-app-name--UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
 				TEST_TARGET_NAME = MonstarHub;
 			};
 			name = "Prod-Release";
@@ -4299,10 +4624,10 @@
 			baseConfigurationReference = BE0E1A633CACB498B57E0B5D /* Pods-Domain.prod-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4315,6 +4640,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4327,8 +4654,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAE1D83C127A14D8EA25D01E /* Pods-Domain-DomainTests.prod-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DomainTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4337,6 +4664,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.DomainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
@@ -4348,10 +4677,10 @@
 			baseConfigurationReference = 189F86C5EBE659310F459082 /* Pods-NetworkPlatform.prod-release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4365,6 +4694,8 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -DProd";
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatform;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4377,8 +4708,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 106BAB7E126AD9FF2DF1029E /* Pods-NetworkPlatform-NetworkPlatformTests.prod-release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RJCML6V8N5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NetworkPlatformTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4387,9 +4718,437 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bd.com.ml.NetworkPlatformTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstarHub.app/MonstarHub";
+			};
+			name = "Prod-Release";
+		};
+		B2EF82C1268069ED002313AD /* Dev-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEAA61A9F0E2738E2C78F60 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+			};
+			name = "Dev-Debug";
+		};
+		B2EF82C2268069ED002313AD /* Staging-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D33E5FC685F7F53B6C9A9E /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Staging-Debug";
+		};
+		B2EF82C3268069ED002313AD /* Prod-Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DFE38AA6FED0EB1A28CA90 /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Prod-Debug";
+		};
+		B2EF82C4268069ED002313AD /* Dev-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE38FC52752CF8589C850FA8 /* Pods-MonstarHub-MonstarHubAcceptanceTests.dev-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Dev-Release";
+		};
+		B2EF82C5268069ED002313AD /* Staging-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA481AFEC4CC916480A9843D /* Pods-MonstarHub-MonstarHubAcceptanceTests.staging-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Staging-Release";
+		};
+		B2EF82C6268069ED002313AD /* Prod-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2525FA7B4F6C469CA74023B /* Pods-MonstarHub-MonstarHubAcceptanceTests.prod-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MonstarHubAcceptanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armanMorshed.MonstarHubAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+				TEST_TARGET_NAME = MonstarHub;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = "Prod-Release";
 		};
@@ -4496,6 +5255,19 @@
 				2F81D4082439A888007021F7 /* Dev-Release */,
 				2FE070BE2439E5380048BDBB /* Staging-Release */,
 				2FE070C62439E5420048BDBB /* Prod-Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Dev-Release";
+		};
+		B2EF82C0268069ED002313AD /* Build configuration list for PBXNativeTarget "MonstarHubAcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EF82C1268069ED002313AD /* Dev-Debug */,
+				B2EF82C2268069ED002313AD /* Staging-Debug */,
+				B2EF82C3268069ED002313AD /* Prod-Debug */,
+				B2EF82C4268069ED002313AD /* Dev-Release */,
+				B2EF82C5268069ED002313AD /* Staging-Release */,
+				B2EF82C6268069ED002313AD /* Prod-Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Dev-Release";

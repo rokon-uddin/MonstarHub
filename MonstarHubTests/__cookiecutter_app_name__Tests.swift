@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import __cookiecutter_app_name__
+@testable import MonstarHub
 
 class __cookiecutter_app_name__Tests: XCTestCase {
 

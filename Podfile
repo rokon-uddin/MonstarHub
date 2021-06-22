@@ -74,6 +74,10 @@ target 'MonstarHub' do
   target 'MonstarHubUITests' do
     
   end
+  
+  target 'MonstarHubAcceptanceTests' do
+    pod 'CucumberSwift' # https://github.com/Tyler-Keith-Thompson/CucumberSwift
+  end
 
 end
 
