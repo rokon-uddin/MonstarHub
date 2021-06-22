@@ -27,4 +27,8 @@ public struct UseCaseProvider: Domain.UseCaseProvider {
     public func makeTrendingGitHubUseCase() -> Domain.TrendingGitHubUseCase {
         return TrendingGitHubUseCase(network: networkProvider.makeTrendingGithubNetwork())
     }
+    
+    public func makeTrendingGitHubStubbedUseCase() -> Domain.TrendingGitHubUseCase {
+        return TrendingGitHubUseCase(network: networkProvider.makeTrendingGithubStubbedNetwork())
+    }
 }

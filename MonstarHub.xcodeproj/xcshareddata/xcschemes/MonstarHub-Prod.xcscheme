@@ -28,6 +28,56 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F797D9E2439CA980028F363"
+               BuildableName = "NetworkPlatformTests.xctest"
+               BlueprintName = "NetworkPlatformTests"
+               ReferencedContainer = "container:MonstarHub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F81D3F62439A888007021F7"
+               BuildableName = "MonstarHubUITests.xctest"
+               BlueprintName = "MonstarHubUITests"
+               ReferencedContainer = "container:MonstarHub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F81D3EB2439A888007021F7"
+               BuildableName = "MonstarHubTests.xctest"
+               BlueprintName = "MonstarHubTests"
+               ReferencedContainer = "container:MonstarHub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B2718FE0266DECC000A74E2F"
+               BuildableName = "MonstarHubAcceptanceTests.xctest"
+               BlueprintName = "MonstarHubAcceptanceTests"
+               ReferencedContainer = "container:MonstarHub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F797D702439C9D90028F363"
+               BuildableName = "DomainTests.xctest"
+               BlueprintName = "DomainTests"
+               ReferencedContainer = "container:MonstarHub.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -10,6 +10,11 @@ PODS:
   - CocoaLumberjack/Core (3.7.2)
   - CocoaLumberjack/Swift (3.7.2):
     - CocoaLumberjack/Core
+  - CucumberSwift (3.3.4):
+    - CucumberSwift/snippets (= 3.3.4)
+    - CucumberSwift/syntax (= 3.3.4)
+  - CucumberSwift/snippets (3.3.4)
+  - CucumberSwift/syntax (3.3.4)
   - DateToolsSwift (5.0.0)
   - Differentiator (4.0.1)
   - DropDown (2.3.13)
@@ -265,6 +270,7 @@ DEPENDENCIES:
   - BonMot
   - Charts
   - CocoaLumberjack/Swift
+  - CucumberSwift
   - DateToolsSwift
   - DropDown
   - DZNEmptyDataSet
@@ -308,6 +314,7 @@ SPEC REPOS:
     - BonMot
     - Charts
     - CocoaLumberjack
+    - CucumberSwift
     - DateToolsSwift
     - Differentiator
     - DropDown
@@ -365,6 +372,7 @@ SPEC CHECKSUMS:
   BonMot: 2217a66e5ddc6a8d2ffb759fe8c85a8528e0d3e7
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   CocoaLumberjack: b7e05132ff94f6ae4dfa9d5bce9141893a21d9da
+  CucumberSwift: 59f326ca8c5e21a5249590805abcc60bbbb92229
   DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
@@ -416,6 +424,6 @@ SPEC CHECKSUMS:
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: d26a75c6bfd0528d2d72a6ae3cacac5435d8b284
+PODFILE CHECKSUM: 95619d97f06e383fe7e8db0ec7d953b269bde0bc
 
 COCOAPODS: 1.10.1
